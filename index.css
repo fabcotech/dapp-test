@@ -1,0 +1,9 @@
+html,
+body {
+  height: 100vh;
+  background: #55f;
+  padding: 30px;
+}
+ul {
+  list-style: inherit;
+}

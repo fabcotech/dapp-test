@@ -1,0 +1,24 @@
+{
+  "name": "dappy-dev",
+  "version": "0.1.0",
+  "author": "Raphaël Fabre",
+  "license": "MIT",
+  "description": "Dapp to serve as an example for dappy",
+  "main": "i",
+  "scripts": {
+    "dappy-dev:init": "node ./node_modules/dappy-dev/init.js",
+    "dappy-dev:build": "node ./node_modules/dappy-dev/build.js",
+    "dappy-dev:builded25519": "node ./node_modules/dappy-dev/builded25519.js",
+    "dappy-dev:push": "node ./node_modules/dappy-dev/index.js",
+    "dappy-dev:pushed25519": "node ./node_modules/dappy-dev/pushed25519.js",
+    "dappy-dev:watch": "node ./node_modules/dappy-dev/index.js --watch",
+    "dappy-dev:lookup": "node ./node_modules/dappy-dev/lookup.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/fabcotech/dapp-test.git"
+  },
+  "dependencies": {
+    "dappy-dev": "https://github.com/fabcotech/dappy-dev"
+  }
+}

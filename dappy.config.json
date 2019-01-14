@@ -1,0 +1,21 @@
+{
+  "manifest": {
+    "title": "Test dapp",
+    "subtitle": "Test dapp",
+    "description": "This is a test dapp to make sure it launches and works well within dappy",
+    "author": "Willy",
+    "cssLibraries": ["bulma@0.x"],
+    "jsLibraries": ["react@16.7.0", "react-dom@16.7.0", "react-redux@6.0.0"],
+    "jsPath": "index.js",
+    "cssPath": "index.css",
+    "htmlPath": "index.html"
+  },
+  "options": {
+    "platform": "rchain",
+    "host": "localhost",
+    "port": "40401",
+    "channel": "zzz",
+    "private_key": "e416638cd5a283be10a724b2b41e8f76c9e48fbbe3ccf6172bfa1293fd7ee476499819f316b7fe95d723b232ba430cf7e3b68af155eb8253905d64e1fbace058",
+    "public_key": "499819f316b7fe95d723b232ba430cf7e3b68af155eb8253905d64e1fbace058"
+  }
+}
